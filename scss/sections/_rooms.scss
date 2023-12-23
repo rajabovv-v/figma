@@ -1,0 +1,317 @@
+/* ROOMS - START */
+.rooms{
+  
+   &_row{
+
+    @media screen and (max-width:1315px) {
+      overflow-x: scroll;
+
+      
+    }
+   }
+  
+ 
+  &_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+
+    &_title{
+      color: var(--black, #131313);
+      font-family: Comfortaa;
+      font-size: 42px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 52px; 
+    }
+    &_number{
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      color: var(--blue, #778CEB);
+      font-family: Comfortaa;
+      font-size: 52px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 52px; 
+    }
+    &_sub{
+      color: var(--black, #121212);
+      font-family: Comfortaa;
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 22px; 
+    }
+  }
+  &_img{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  &_img1{
+    display: flex;
+    gap: 22px;
+  }
+  &_one{
+    width: 1279px;
+    height: 500px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    overflow: hidden;
+    border-radius: 40px;
+    position: relative;
+  }
+  &_two{
+    width: 412px;
+    height: 500px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    overflow: hidden;
+    border-radius: 40px;
+    position: relative;
+  }
+ &_three{
+    width: 847px;
+    height: 500px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    overflow: hidden;
+    border-radius: 40px;
+    position: relative;
+ }
+
+&_aylana{
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  background-color:#8DC63F;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  gap: 5px;
+
+  &:hover{
+    background-color:rgb(19, 229, 19);
+   
+  }
+
+  &_sub{
+    color: var(--white, #FFF);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px; 
+  }
+  &_svg{
+    width: 74px;
+    height: 74px;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    
+  }
+}
+
+&_aylana1{
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  background-color: #778CEB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  gap: 5px;
+
+  &:hover{
+    background-color: #1f47f9;
+  }
+}
+
+&_radius{
+  width: 334px;
+  height: 66px;
+  display: inline-flex;
+  padding: 16px 20px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 60px;
+  background: var(--blue, #778CEB);
+  margin-top: 30px;
+  margin-left: 450px;
+
+  &:hover{
+    background-color: #1f47f9;
+  }
+  &_text{
+    color: var(--white, #FFF);
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.52px;
+    text-transform: uppercase;
+  }
+  
+}
+&_cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+ 
+
+}
+
+&_line{
+  position: relative;
+  &_one{
+    position: absolute;
+    width: 49px;
+    height: 5px;
+    border-radius: 6px;
+    background: var(--white, #FFF);
+    bottom: 25px;
+    left: 500px;
+  }
+  &_two{
+    position: absolute;
+    width: 49px;
+    height: 5px;
+    border-radius: 6px;
+    background: var(--green, #8DC63F);
+    bottom: 25px;
+    left: 575px;
+  }
+  &_three{
+    position: absolute;
+    width: 49px;
+    height: 5px;
+    border-radius: 6px;
+    background: var(--white, #FFF);
+    bottom: 25px;
+    left: 650px;
+  }
+  &_four{
+    position: absolute;
+    width: 49px;
+    height: 5px;
+    border-radius: 6px;
+    background: var(--white, #FFF);
+    bottom: 25px;
+    left: 725px;
+  }
+  
+  
+}
+ 
+&_line1{
+  position: relative;
+  &_one1{
+    position: absolute;
+    width: 49px;
+    height: 5px;
+    border-radius: 6px;
+    background: var(--white, #FFF);
+    bottom: 25px;
+    left: 100px;
+  }
+  &_two2{
+    position: absolute;
+    width: 49px;
+    height: 5px;
+    border-radius: 6px;
+    background: var(--green, #8DC63F);
+    bottom: 25px;
+    left: 160px;
+  }
+  &_three3{
+    position: absolute;
+    width: 49px;
+    height: 5px;
+    border-radius: 6px;
+    background: var(--white, #FFF);
+    bottom: 25px;
+    left: 220px;
+  }
+  &_four4{
+    position: absolute;
+    width: 49px;
+    height: 5px;
+    border-radius: 6px;
+    background: var(--white, #FFF);
+    bottom: 25px;
+    left: 280px;
+  }
+  
+  
+}
+&_line2{
+  position: relative;
+  &_one1{
+    position: absolute;
+    width: 49px;
+    height: 5px;
+    border-radius: 6px;
+    background: var(--white, #FFF);
+    bottom: 25px;
+    left: 310px;
+  }
+  &_two2{
+    position: absolute;
+    width: 49px;
+    height: 5px;
+    border-radius: 6px;
+    background: var(--blue, #778CEB);
+    bottom: 25px;
+    left: 370px;
+  }
+  &_three3{
+    position: absolute;
+    width: 49px;
+    height: 5px;
+    border-radius: 6px;
+    background: var(--white, #FFF);
+    bottom: 25px;
+    left: 435px;
+  }
+  &_four4{
+    position: absolute;
+    width: 49px;
+    height: 5px;
+    border-radius: 6px;
+    background: var(--white, #FFF);
+    bottom: 25px;
+    left: 500px;
+  }
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+/* ROOMS - END */

@@ -1,0 +1,79 @@
+/* HEADER - START */
+.header{
+    position: relative;
+    padding: 12px 0;
+    box-shadow: 0px 2px 4px 0px rgb(34, 60, 80, 0.2) ;
+     &_row{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+     }
+    
+    &_link{
+        color: var(--black, #121212);
+        font-family: Comfortaa;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration: none;
+        font-family: sans-serif;
+       
+
+        &:not(:last-child){
+            margin-right: 24px;
+        }
+        &:hover{
+            color: red;
+        }
+
+        @media screen and (max-width:1000px) {
+            display: none;
+            
+        }
+          
+    }
+    &_moskov{
+        display: flex;
+        align-items: center;
+        gap: 32px;
+
+        @media screen and (max-width:650px) {
+            display: none;
+            
+        }
+    }
+    &_phone{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    &_locat{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    &_qnopka{
+        display: none;
+
+        @media screen and (max-width:1000px) {
+            display: block;
+            
+        }
+    }
+
+    &_men{
+        display: flex;
+        align-items:center ;
+        gap: 16px;
+
+        @media screen and (max-width:650px) {
+      
+            
+        }
+    }
+}
+
+
+/* HEADER - END */
